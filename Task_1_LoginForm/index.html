@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Headland+One&family=Inconsolata:wght@200..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4a09b03312.js" crossorigin="anonymous"></script>
+  <link href="./src/style/output.css" rel="stylesheet">
+  <link href="./src/style/style.css" rel="stylesheet">
+</head>
+<body>
+  
+
+  <div class="h-screen w-screen p-0.5 plus-jakarta-sans bg-white">
+    <div class="h-full w-full  grid grid-cols-1 md:grid-cols-2 ">
+      <div class="h-full w-full md:block hidden ">
+        <div class=" container1 h-full flex flex-col items-center justify-center w-full relative ">
+
+        
+        
+          <div class=" absolute circle-cont h-75 w-75 rounded-full  z-10 flex justify-center items-center "></div>
+  
+          <div class=" absolute container-1 top-0 h-1/2 border-2 border-white w-full z-20 bg-opacity-50 backdrop-blur-sm"></div> 
+          
+            
+          
+        </div>
+      </div>
+      
+      
+      <div class=" h-full w-full flex flex-col items-center p-1">
+        <div class="flex w-full justify-end h-1/15 font-semibold m-1 items-center m:p-6 text-base p-2">
+          <h3 class="primary">Your Logo Here</h3>
+          
+        </div>
+
+        <div class="flex flex-col w-full h-14/14 items-center md:px-28 px-5 gap-1 ">
+          <div class="flex flex-col  w-full h-3/13 m:gap-4  gap-2 justify-center ">
+            <h1 class="w-full flex items-center md:text-5xl text-2xl font-semibold  heading ">Welcome Back!</h1>
+            <h3 class=" w-full flex items-center text-base  secondary">Amet minim molit non desert</h3>
+          </div>
+          <div class="flex flex-col w-full h-6/13  ">
+            <form action="" class="flex flex-col h-full w-full">
+              <div class="flex flex-col w-full h-3/9   ">
+                <label class="text-sm w-full h-1/5  pl-4 secondary " for="email">E-mail</label>
+                
+                <div class=" w-full h-3/5">
+                  <input class=" px-4 py-1 w-full h-full input-box rounded-md   outline-none" type="email" name="email" id="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="flex flex-col w-full h-3/9  ">
+                <label class="text-sm w-full h-1/5  pl-4 secondary "  for="password">Password</label>
+                
+                <div class="w-full h-3/5 flex justify-center items-center input-box rounded-md pr-2  ">
+                  <input class=" h-full w-full px-4 py-1 outline-none " type="password" name="password" id="password" placeholder="Password">
+                  <i class="fa-solid fa-eye" style="color: #74C0FC;"></i>
+                  <i class="hide fa-solid fa-eye-slash "></i>
+                  <br>
+                </div>
+              </div>
+              <div class="flex w-full justify-end h-1/9 font-semibold  items-center  text-sm ">
+                <a class="primary hover:cursor-pointer " href="./src/pages/forgotPassword.html">Forgot Password</a>
+              </div>
+              <div class="w-full flex flex-col items-center h-2/9 justify-center py-1 ">
+                <button  class="bg-blue-500 w-full h-full rounded-md text-white text-sm hover:bg-blue-600 hover:cursor-pointer" type="submit" onclick="formHandler(event)">Sign in</button>
+              </div>
+  
+            </form>        
+          </div>
+          <div class="w-full flex flex-row justify-center items-center mt-10 relative ">
+            <hr class="w-full absolute z-10" style="color:#EAEAEA;">
+            <h3 class= "secondary text-sm absolute z-20 bg-white pl-3 pr-3">or sign in with</h3>
+          </div>
+          <div class="w-full h-2/15 mt-2">
+            <div class="w-full h-4/5 pt-3 mt-4 "><a class="input-box text-sm w-full rounded-md h-full font-semibold flex justify-center items-center hover:cursor-pointer hover:ring-1 hover:ring-blue-500 " href="./src/pages/GoogleSignIn.html">
+              <img src="./assests/googlee.png" alt="">
+               Sign in with Google</a></div>
+          </div>
+          <div class="text-sm mt-2">Don't have an account?
+            <a class="text-blue-600 font-semibold" href="./src/pages/SignUp.html">Sign up</a>
+          </div>
+
+          
+
+        </div>
+        
+      </div>
+      
+    </div>
+
+
+    
+
+     
+    
+
+  </div>
+
+
+  <script src="./src/script/FormValidate.js"></script>
+  
+  
+</body>
+</html>

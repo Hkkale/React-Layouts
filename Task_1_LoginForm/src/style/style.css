@@ -1,0 +1,36 @@
+
+.plus-jakarta-sans{
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container1{
+  background-color: #F3F5F9;
+}
+
+.circle-cont{
+  background-color: #4C69FF;
+}
+
+.container2{
+  background-color: #E5E5E5
+}
+
+.primary{
+  color: #090E3A;
+
+}
+.heading{
+  color: #060C43;
+}
+.secondary{
+  color: #626476;
+
+}
+
+.input-box{
+  border: 1px solid #EAEAEA;
+}
+
+.hide{
+  display: none;
+}
