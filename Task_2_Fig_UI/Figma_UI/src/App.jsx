@@ -6,7 +6,7 @@ function App() {
   
 
   return (
-   <div className='h-screen w-screen box-border py-8 px-10 ' style={{backgroundColor:"#E6EDEE"}}>
+   <div className='h-screen w-screen box-border py-5 px-10 ' style={{backgroundColor:"#E6EDEE",color:"#1A1A1A"}}>
     <Header/>
     <Body/>
 
