@@ -14,7 +14,7 @@ const Header = () => {
         </div>
 
 
-        <div className='h-full flex flex-row gap-20 items-center  poppins-regular text-sm w-8/10 justify-center'>
+        <div className='h-full flex flex-row gap-25 items-center  poppins-regular text-sm w-8/10 justify-center'>
           <h3>Capabilities</h3>
           <h3>Safety</h3>
           <h3>Research</h3>         
