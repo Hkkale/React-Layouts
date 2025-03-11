@@ -14,8 +14,20 @@
   font-weight: 300;
   font-style: normal;
 }
+.plus-jakarta-sans-400 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .main-background{
-  background-color: #1E1E1E;
+  background-color: #0F0F0F;
 }
+
+.purple-background{
+  background-color: #BE5CFF;
+}
+
+
 
