@@ -7,7 +7,7 @@ function App() {
   
 
   return (
-    <div className='h-screen w-screen main-background border-2 border-red-400 box-border  ' >
+    <div className='min-h-screen w-screen main-background border-2 border-red-400 box-border  ' >
       <Header/>
       <Section1/>
 
