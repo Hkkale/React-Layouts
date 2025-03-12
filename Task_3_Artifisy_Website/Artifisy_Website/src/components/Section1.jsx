@@ -16,7 +16,7 @@ const Section1 = () => {
         WORLD
       </h1>
 
-      <div className="h-123 z-20  w-75 absolute left-88 bottom-0 rotate-13 shadow-black shadow-2xl">
+      <div className="h-123 z-20  w-75 absolute left-88 bottom-0 rotate-13 " style={{boxShadow:' -15px 0px 50px black'}}>
         <div className="h-3/5 w-full purple-background"></div>
         <div
           className="h-2/5 w-full flex flex-col justify-center items-center p-5 gap-2  "
@@ -37,7 +37,7 @@ const Section1 = () => {
           </div>
         </div>
       </div>
-      <div className="h-123 z-20 bg-amber-400 w-75 absolute right-88  -rotate-19 shadow-black shadow-2xl">
+      <div className="h-123 z-20 w-75 absolute right-89.5  -rotate-19 " style={{boxShadow:' -15px 0px 50px black'}}>
         <div className="h-3/5 w-full purple-background"></div>
         <div className="h-2/5 w-full " style={{ backgroundColor: "#E4E4E4" }}>
           <div

@@ -4,7 +4,7 @@ const Section3 = () => {
   return (
     <section className="h-200 mt-35 w-full flex  flex-row px-20">
       <div
-        className=" h-full w-3/6 rounded-4xl flex items-end"
+        className=" h-full w-3/6 rounded-[60px] flex items-end"
         style={{ backgroundColor: "#D9D9D9" }}
       >
         <div className="h-1/5 w-full border-t-2  border-white rounded-4xl flex flex-row plus-jakarta-sans-300 text-white pr-7 ">

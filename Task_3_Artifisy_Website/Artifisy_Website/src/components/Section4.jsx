@@ -25,8 +25,8 @@ const Section4 = () => {
 
 
     {/* Container Div */}
-      <div className='h-180 w-full  px-25 py-10 mt-10'>  
-        <div className='h-160 w-full purple-background rounded-4xl'>
+      <div className='h-180 w-full  px-20 py-10 mt-10'>  
+        <div className='h-160 w-full purple-background rounded-[60px]'>
 
           <div className='h-50 w-1/2  text-white plus-jakarta-sans-300 pt-15 pl-15 pr-10'>
             <p className='text-xl font-bold'>I transform ideas into compelling visuals that leave a lasting impact. From bold graphic designs to intricate 3D modeling, my work bridges creativity and functionality.</p>
