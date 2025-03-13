@@ -43,7 +43,7 @@ const Section6 = () => {
           <div className='plus-jakarta-sans-300 flex flex-col gap-2 '>
             <h1 className='text-[27px] font-bold'>Foundation of Creativity</h1>
             <p className='text-[20px] '>Started as a curious mind, diving into the world of design. Experimented with various styles and techniques to build a solid foundation.</p>
-            <div className='purple-background rounded-4xl mt-5 flex items-center justify-center w-43'><h1 className='text-[14px]'>2020-2024</h1></div>
+            <div className='purple-background rounded-4xl mt-5 flex items-center justify-center w-43 h-7'><h1 className='text-[14px]'>2020-2024</h1></div>
           </div>
 
 
@@ -52,13 +52,13 @@ const Section6 = () => {
           <div className='plus-jakarta-sans-300 flex flex-col gap-2  mt-14'>
             <h1 className='text-[27px] font-bold'>Growth and Innovation</h1>
             <p className='text-[20px] '>Refined my craft by embracing new technologies and approaches. Worked on impactful projects that pushed the boundaries of traditional design.</p>
-            <div className='purple-background rounded-4xl mt-5 flex items-center justify-center w-43'><h1 className='text-[14px]'>2020-2024</h1></div>
+            <div className='purple-background rounded-4xl mt-5 flex items-center justify-center w-43 h-7'><h1 className='text-[14px]'>2020-2024</h1></div>
           </div>
 
           <div className='plus-jakarta-sans-300 flex flex-col gap-2  mt-24'>
             <h1 className='text-[27px] font-bold'>Mastering the Art</h1>
             <p className='text-[20px] '>Evolved into a professional designer, delivering exceptional results for clients worldwide. Focused on creating immersive visuals and storytelling</p>
-            <div className='purple-background rounded-4xl mt-5 flex items-center justify-center w-43'><h1 className='text-[14px]'>2020-2024</h1></div>
+            <div className='purple-background rounded-4xl mt-5 flex items-center justify-center w-43 h-7'><h1 className='text-[14px]'>2020-2024</h1></div>
           </div>
 
 

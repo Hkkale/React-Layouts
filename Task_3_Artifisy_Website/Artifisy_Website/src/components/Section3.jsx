@@ -9,7 +9,7 @@ const Section3 = () => {
       >
         <div className="h-1/5 w-full border-t-2  border-white rounded-4xl flex flex-row plus-jakarta-sans-300 text-white pr-7 ">
           <div className="h-full w-4/5  rounded-4xl flex items-center pl-15 ">
-            <p className="text-5xl font-bold  w-full">A GLIMPSE INTO MY CREATIVE WORLD</p>
+            <p className="text-[48px] font-bold  w-full">A GLIMPSE INTO MY CREATIVE WORLD</p>
           </div>
 
           <div className="h-full w-1/5  flex justify-center items-center  ">
